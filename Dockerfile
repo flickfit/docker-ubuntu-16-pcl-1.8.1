@@ -23,3 +23,5 @@ RUN \
     cmake -DCMAKE_BUILD_TYPE=Release .. && \
     make -j 1 && make install && \
     make clean
+
+RUN ldconfig
